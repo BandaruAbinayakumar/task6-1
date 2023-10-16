@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'; 
 import './App.css';
-import sanathImage from "./sanath.jpeg"; 
+import deekshithImage from "./deekshith.jpeg"; 
 
 function App() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -45,8 +45,8 @@ function App() {
     <div className="App">
       <header>
         <div className="user">
-          <img src={sanathImage} alt="sanath" />
-          <h3 className="name">Sanath kumar</h3>
+          <img src={deekshithImage} alt="deekshith" />
+          <h3 className="name">Deekshith</h3>
         </div>
         <nav className="navbar">
           <ul className="nav">
@@ -62,14 +62,14 @@ function App() {
 
       <section className="home" id="home">
         <h3>HELLO!!</h3>
-        <h1>This is <span>G.Sanath kumar</span></h1>
+        <h1>This is <span>Deekshith reddy</span></h1>
       </section>
 
       <section className="about" id="about">
         <h1 className="heading"> <span>about</span> me </h1>
         <div className="row">
           <div className="info">
-            <h3> <span> Name : </span> Sanath kumar </h3>
+            <h3> <span> Name : </span> Deekshith reddy </h3>
             <h3> <span> Qualification : </span> B.Tech(pursuing) </h3>
             <h3> <span> Address</span> Guntur</h3>
             <h3> <span> Strengths : </span> Honesty, Patience, Dedication </h3>
@@ -111,8 +111,8 @@ function App() {
           <div className="content">
             <h3 className="title">contact info</h3>
             <div className="info">
-              <h3> <i className="fas fa-envelope"></i> gsanathkumar20@gmail.com</h3>
-              <h3> <i className="fas fa-phone"></i> 95158 45679 </h3>
+              <h3> <i className="fas fa-envelope"></i> Deekshith5125@gmail.com</h3>
+              <h3> <i className="fas fa-phone"></i>  96660 12234 </h3>
               <h3> <i className="fas fa-map-marker-alt"></i> Guntur </h3>
             </div>
           </div>
@@ -121,7 +121,7 @@ function App() {
 
       {showTopButton && (
         <a href="#home" className="top" onClick={(e) => handleLinkClick(e, '#home')}>
-          <img src={sanathImage} alt="" />
+          <img src={deekshithImage} alt="" />
         </a>
       )}
     </div>
