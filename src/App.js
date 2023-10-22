@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'; 
 import './App.css';
-import sriramImage from "./sriram.jpeg"; 
+import abhinayImage from "./abhinay.jpeg"; 
 
 function App() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -45,8 +45,8 @@ function App() {
     <div className="App">
       <header>
         <div className="user">
-          <img src={sriramImage} alt="sriram" />
-          <h3 className="name">Sriram</h3>
+          <img src={abhinayImage} alt="abhinay" />
+          <h3 className="name">abhinay</h3>
         </div>
         <nav className="navbar">
           <ul className="nav">
@@ -62,14 +62,14 @@ function App() {
 
       <section className="home" id="home">
         <h3>HELLO!!</h3>
-        <h1>This is <span>S.Sriram</span></h1>
+        <h1>This is <span>abhinay bandaru</span></h1>
       </section>
 
       <section className="about" id="about">
         <h1 className="heading"> <span>about</span> me </h1>
         <div className="row">
           <div className="info">
-            <h3> <span> Name : </span> Sriram</h3>
+            <h3> <span> Name : </span> abhinay</h3>
             <h3> <span> Qualification : </span> B.Tech(pursuing) </h3>
             <h3> <span> Address</span> Guntur</h3>
             <h3> <span> Strengths : </span> Honesty, Patience, Dedication </h3>
@@ -93,7 +93,7 @@ function App() {
             <span>2019-2021</span>
             <h3>Intermediate</h3>
             <h3>MPC</h3>
-            <p style={{ fontSize: '20px' }}>Tirumala junior college
+            <p style={{ fontSize: '20px' }}>Sri chaitanya
             </p>
           </div>
           <div className="box">
@@ -112,9 +112,9 @@ function App() {
           <div className="content">
             <h3 className="title">contact info</h3>
             <div className="info">
-              <h3> <i className="fas fa-envelope"></i> sriramchaitu383@gmail.com</h3>
-              <h3> <i className="fas fa-phone"></i> 81254 54169 </h3>
-              <h3> <i className="fas fa-map-marker-alt"></i> Guntur </h3>
+              <h3> <i className="fas fa-envelope"></i> abhinay14311@gmail.com</h3>
+              <h3> <i className="fas fa-phone"></i> 9390464229 </h3>
+              <h3> <i className="fas fa-map-marker-alt"></i> Godavari </h3>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ function App() {
 
       {showTopButton && (
         <a href="#home" className="top" onClick={(e) => handleLinkClick(e, '#home')}>
-          <img src={sriramImage} alt="" />
+          <img src={abhinayImage} alt="" />
         </a>
       )}
     </div>
